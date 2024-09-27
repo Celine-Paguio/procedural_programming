@@ -22,3 +22,8 @@ width = input("Please enter an odd integer: ")
 n = int(width)
 # Call the function and check for the return value 
 message = print_diamond(n)
+# Print the return value only if it's not none
+if message != None: 
+    print (message)
+
+# End of program
