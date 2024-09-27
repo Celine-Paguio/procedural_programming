@@ -18,4 +18,7 @@ def print_diamond(n):
         print (spaces + asterisk)
 # Ask the user for input
 width = input("Please enter an odd integer: ")
-# Call the function
+# Store and convert width into integer in variable n
+n = int(width)
+# Call the function and check for the return value 
+message = print_diamond(n)
