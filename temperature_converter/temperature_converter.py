@@ -6,3 +6,7 @@ temp = float(input("Please enter the temperature without the unit: "))
 # Ask the user to select the type of convertion
 convertion = input("Please select the convertion type.\n(1)Celcius to Fahrenheit \n(2)Fahrenheit to Celcius \n")
 # Convert the input
+# Celcius to Fahrenheit 
+if convertion == "1":
+    fahrenheit = (temp * (9/5)) + 32
+    print(f"{temp}°C is equal to {fahrenheit}°F.")
