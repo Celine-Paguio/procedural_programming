@@ -13,4 +13,12 @@ if choice == "V":
 # Computation
     voltage = current * resistance
     print("The voltage is %.2f" %voltage, "volts.")
+# Calculate current
+elif choice == "C":
+# Ask for the appropriate values
+    voltage = float(input("Enter the voltage in Volts: "))
+    resistance = float(input("Enter the resistance in Ohms: "))
+# Computation
+    current = voltage / resistance
+    print("The current is %.2f" %current, "amperes.")
 # Handle cases where division by zero might occur
