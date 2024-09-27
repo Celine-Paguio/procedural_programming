@@ -14,3 +14,8 @@ if convertion == "1":
 elif convertion == "2":
     celcius = (temp - 32) * (5/9)
     print(f"{temp}°F is equal to {celcius}°C.")  
+# If the user's input is not 1 or 2
+else:
+    print("Invalid Input! Please select 1 or 2.")
+
+# End of program
