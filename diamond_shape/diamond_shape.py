@@ -17,4 +17,5 @@ def print_diamond(n):
         asterisk = '*' * (2 * i + 1)
         print (spaces + asterisk)
 # Ask the user for input
+width = input("Please enter an odd integer: ")
 # Call the function
