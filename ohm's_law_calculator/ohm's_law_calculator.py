@@ -21,4 +21,12 @@ elif choice == "C":
 # Computation
     current = voltage / resistance
     print("The current is %.2f" %current, "amperes.")
+# Calculate resistance
+elif choice == "R":
+# Ask for the appropriate values
+    voltage = float(input("Enter the voltage in Volts: "))
+    current = float(input("Enter the current in Amperes: "))
+# Computation
+    resistance = voltage / current
+    print("The resistance is %.2f" %resistance, "ohms.")
 # Handle cases where division by zero might occur
