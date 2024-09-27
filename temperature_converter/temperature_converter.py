@@ -10,3 +10,7 @@ convertion = input("Please select the convertion type.\n(1)Celcius to Fahrenheit
 if convertion == "1":
     fahrenheit = (temp * (9/5)) + 32
     print(f"{temp}°C is equal to {fahrenheit}°F.")
+# Fahrenheit to Celcius
+elif convertion == "2":
+    celcius = (temp - 32) * (5/9)
+    print(f"{temp}°F is equal to {celcius}°C.")  
