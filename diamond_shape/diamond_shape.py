@@ -11,5 +11,10 @@ def print_diamond(n):
         spaces = ' ' * (n // 2 - i)
         asterisk = '*' * (2 * i + 1)
         print (spaces + asterisk)
+# Print the bottom half of the diamond
+    for i in range(n // 2 - 1, -1, -1):
+        spaces = ' ' * (n // 2 - i)
+        asterisk = '*' * (2 * i + 1)
+        print (spaces + asterisk)
 # Ask the user for input
 # Call the function
